@@ -7,7 +7,7 @@ pipeline {
 
   environment {
     DOCKERHUB_PWD = credentials('dockerhub-password')
-    IMAGE_NAME = 'hzyxby1996/comp367-q2:1.0'
+    IMAGE_NAME = 'hzyxby1996/comp367-lab3-q1:1.0'
     PATH = "/usr/local/bin:${env.PATH}"
   }
 
