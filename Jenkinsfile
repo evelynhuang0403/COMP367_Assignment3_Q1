@@ -8,6 +8,7 @@ pipeline {
   environment {
     DOCKERHUB_PWD = credentials('dockerhub-password')
     IMAGE_NAME = 'hzxyby1996/comp367-q2:1.0'
+    PATH = "/usr/local/bin:${env.PATH}"
   }
 
   stages {
